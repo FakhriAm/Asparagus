@@ -108,7 +108,7 @@ public class Switching {
 	    Object obj = constructor.newInstance();
             
             Class x = Class.forName(mrx.get(prod_id+"_class").toString());
-            PelangiService ps = (PelangiService)x.newInstance();
+            AsparagusService ps = (AsparagusService)x.newInstance();
             
             result = ps.process(output, trx_id, prod_id, trx_type, format,mrx, request);
             

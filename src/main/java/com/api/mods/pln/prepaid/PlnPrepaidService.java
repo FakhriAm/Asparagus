@@ -1,12 +1,12 @@
 
 package com.api.mods.pln.prepaid;
 
-import com.util.PelangiService;
+import com.util.AsparagusService;
 import java.util.Map;
 import org.apache.log4j.Logger;
 import spark.Request;
 
-public class PlnPrepaidService extends PelangiService {
+public class PlnPrepaidService extends AsparagusService {
     
     private static Logger logger = Logger.getLogger(PlnPrepaidService.class);
 
