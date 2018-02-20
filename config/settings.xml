@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+    <minthread>50</minthread>
+    <maxthread>200</maxthread>
+    <timeoutmilis>3000</timeoutmilis>
+    <salt>xxxxxx</salt>
+    <port>1985</port>
+    <mc_host>localhost</mc_host>
+    <mc_port>11212</mc_port>
+</application>

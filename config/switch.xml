@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<switch>
+    <servicex name="Arisan_Notif" processor="com.api.mods.arisan.FcmService" product="1" format="com.api.mods.arisan.ArisanFormat" >
+      <rainbowq>	
+	<task_queue_name>arisan_queue</task_queue_name>
+	<exchange_name>Arisan_exchange</exchange_name>
+	<routing_key>ARISAN</routing_key>
+      </rainbowq>
+    </servicex>
+    
+</switch>
